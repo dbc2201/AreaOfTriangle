@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daec005-3cf4-4d94-840b-864569d57037" name="Changes" comment="add hints">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dbc/TriangleAreaFinder.java" afterDir="false" />
+    <list default="true" id="1daec005-3cf4-4d94-840b-864569d57037" name="Changes" comment="create the method to be completed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/TriangleAreaFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,9 +41,43 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.dbc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TriangleAreaFinderTest.shouldGiveCorrectResultForCorrectInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AreaOfTriangle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.dbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.dbc" />
+      <option name="MAIN_CLASS_NAME" value="io.github.dbc.TriangleAreaFinderTest" />
+      <option name="METHOD_NAME" value="shouldGiveCorrectResultForCorrectInput(double,double,double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TriangleAreaFinderTest.shouldGiveCorrectResultForCorrectInput" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -133,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655643339603</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create the method to be completed">
+      <created>1655643841787</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655643841787</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +199,7 @@
     <MESSAGE value="add formula for s" />
     <MESSAGE value="add context for formula" />
     <MESSAGE value="add hints" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hints" />
+    <MESSAGE value="create the method to be completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="create the method to be completed" />
   </component>
 </project>
