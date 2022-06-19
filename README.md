@@ -17,6 +17,7 @@ Calculate the area of a triangle using [Heron's Formula](https://en.wikipedia.or
 
 $$Area=\sqrt{s*(s-a)*(s-b)*(s-c)}$$ 
 
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 ---
 
