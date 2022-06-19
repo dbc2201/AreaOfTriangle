@@ -15,7 +15,7 @@ Problem Statement
 
 Calculate the area of a triangle using [Heron's Formula](https://en.wikipedia.org/wiki/Heron's_formula)
 
-$$ Area=\sqrt{s*(s-a)*(s-b)*(s-c)} $$ 
+$$Area=\sqrt{s*(s-a)*(s-b)*(s-c)}$$ 
 
 
 ---
