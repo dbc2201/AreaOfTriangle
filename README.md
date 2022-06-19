@@ -19,6 +19,8 @@ $$area=\sqrt{s(s-a)(s-b)(s-c)}$$
 
 $$s=\frac{a+b+c}{2}$$
 
+Where `a`, `b`, and `c` are the lengths of the sides of the triangle.
+
 ---
 
 Task
