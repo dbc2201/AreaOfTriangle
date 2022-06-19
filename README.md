@@ -17,6 +17,8 @@ Calculate the area of a triangle using [Heron's Formula](https://en.wikipedia.or
 
 $$area=\sqrt{s(s-a)(s-b)(s-c)}$$
 
+$$s=\frac{a+b+c}{2}$$
+
 ---
 
 Task
