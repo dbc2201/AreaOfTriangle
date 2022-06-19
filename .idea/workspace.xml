@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daec005-3cf4-4d94-840b-864569d57037" name="Changes" comment="final fix for formula">
+    <list default="true" id="1daec005-3cf4-4d94-840b-864569d57037" name="Changes" comment="add context for formula">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655642966759</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add formula for s">
+      <created>1655643020339</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655643020339</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add context for formula">
+      <created>1655643074618</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655643074618</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +136,8 @@
     <MESSAGE value="initial commit with readme" />
     <MESSAGE value="fix formula" />
     <MESSAGE value="final fix for formula" />
-    <option name="LAST_COMMIT_MESSAGE" value="final fix for formula" />
+    <MESSAGE value="add formula for s" />
+    <MESSAGE value="add context for formula" />
+    <option name="LAST_COMMIT_MESSAGE" value="add context for formula" />
   </component>
 </project>

@@ -29,3 +29,11 @@ Task
 1. Open the [source code file](src/main/java/io/github/dbc/) and complete the code.
 2. Open the [test case file](src/test/java/io/github/dbc/) and run the test cases to
    check your code.
+
+---
+
+Hint
+---
+
+Use either the [Math.sqrt()](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#sqrt(double))
+or [Math.pow()](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#pow(double,double)) method to calculate the value of the `area`.
