@@ -29,6 +29,27 @@ class TriangleAreaFinderTest {
         );
     }
 
+    @ParameterizedTest(name = "calculateAreaOfTriangleUsingHeronsFormula({arguments})")
+    @CsvSource(value = {
+            "0.0,0.0,0.0",
+            "-1.0,0.0,0.0",
+            "0.0,-1.0,0.0",
+            "0.0,0.0,-1.0",
+            "-1.0,-1.0,0.0",
+            "-1.0,0.0,-1.0",
+            "0.0,-1.0,-1.0",
+            "-1.0,-1.0,-1.0"
+    })
+    void shouldGiveZeroForInvalidInput(double side1, double side2, double side3) {
+        double calculatedArea = triangleAreaFinder.calculateAreaOfTriangleUsingHeronsFormula(side1, side2, side3);
+        Assertions.assertEquals(
+                0.0,
+                calculatedArea,
+                0.1f,
+                "The calculated area is not correct!"
+        );
+    }
+
     private double calculateSemiPerimeter(double side1, double side2, double side3) {
         return (side1 + side2 + side3) / 2;
     }

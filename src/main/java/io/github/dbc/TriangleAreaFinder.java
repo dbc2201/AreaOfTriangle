@@ -11,6 +11,6 @@ public class TriangleAreaFinder {
      * @return the calculated area of the triangle, OR 0 if any side less than or equal to 0.
      */
     public double calculateAreaOfTriangleUsingHeronsFormula(double side1, double side2, double side3) {
-        return Double.MIN_VALUE;
+        return Double.NEGATIVE_INFINITY;
     }
 }

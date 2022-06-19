@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daec005-3cf4-4d94-840b-864569d57037" name="Changes" comment="create the method to be completed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/TriangleAreaFinderTest.java" afterDir="false" />
+    <list default="true" id="1daec005-3cf4-4d94-840b-864569d57037" name="Changes" comment="add test case 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dbc/TriangleAreaFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dbc/TriangleAreaFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dbc/TriangleAreaFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/TriangleAreaFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,22 @@
       <recent name="io.github.dbc" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TriangleAreaFinderTest">
+    <configuration name="TriangleAreaFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AreaOfTriangle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.dbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.dbc" />
+      <option name="MAIN_CLASS_NAME" value="io.github.dbc.TriangleAreaFinderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TriangleAreaFinderTest.shouldGiveCorrectResultForCorrectInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AreaOfTriangle" />
       <extension name="coverage">
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TriangleAreaFinderTest" />
         <item itemvalue="JUnit.TriangleAreaFinderTest.shouldGiveCorrectResultForCorrectInput" />
       </list>
     </recent_temporary>
@@ -178,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655643841787</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add test case 1">
+      <created>1655645202181</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655645202181</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +222,7 @@
     <MESSAGE value="add context for formula" />
     <MESSAGE value="add hints" />
     <MESSAGE value="create the method to be completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the method to be completed" />
+    <MESSAGE value="add test case 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test case 1" />
   </component>
 </project>
